@@ -7,12 +7,12 @@ const productDetail = (img, name, descripcion, price) =>{
 
         const cajaProduct = document.createElement("div");
         const contenido =  `
-                                <div class="card">
+                                <div class="card" id="product-detail">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-6">
                                             <img class="img-fluid" src="${img}" id="img-product">
                                         </div>
-                                        <div class="col-4 text-center" id="description-card">
+                                        <div class="col-5 text-center p-1" id="description-card">
                                             <h2>${name}</h2>
                                             <p>${descripcion}</p>
                                             <h5>${precioFinal}</h5>
