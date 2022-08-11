@@ -16,7 +16,7 @@ const createCardlist = (img,name,price,id) =>{
             
             <div class="btn-group" >
             <button class="btn bg-danger" id="${id}"><i class="material-icons text-light">delete</i></button>
-            <a class="btn bg-success text-light" href="../../views/edit_product.html?id=${id}"><i class="material-icons" >mode_edit</i></a>
+            <a class="btn bg-success text-light" href="./edit_product.html?id=${id}"><i class="material-icons" >mode_edit</i></a>
             </div>
         </div>
     `;

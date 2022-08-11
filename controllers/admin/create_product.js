@@ -14,7 +14,7 @@ form.addEventListener("submit",(event)=>{
         const price = document.querySelector("[data-price]").value;
         const description = document.querySelector("[data-descripcion]").value;
         AdminService.creatNewProduct(img,product,category,price,description).then(response =>{
-            window.location.href="/views/list_producto.html";
+            window.location.href="./list_producto.html";
         })
         .catch((err)=> alert("ocurrio un error" + err))
     }
