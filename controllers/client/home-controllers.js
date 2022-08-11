@@ -16,7 +16,7 @@ const createNewCard = (img,name,price,id) =>{
             <p> ${precioFinal}</p>
             </div>
             <div class="card-footer">
-            <a href="./views/detail_product.html?id=${id}">Ver producto</a>
+            <a href="./detail_product.html?id=${id}">Ver producto</a>
             </div>
         </div>
     `;
