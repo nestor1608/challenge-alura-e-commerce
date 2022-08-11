@@ -1,0 +1,99 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "producto": [
+    {
+      "img": "/assets/img/prueba.png",
+      "name": "Muñeco Soldado Darw",
+      "category": "Muñecos",
+      "price": "1000",
+      "descripcion": "REFORZADO -HOM TRAJE",
+      "id": "44523b2c-d204-4810-89de-131a8060668b"
+    },
+    {
+      "id": "08418b3c-57d4-43e8-9c96-1e3c08e09b49",
+      "img": "/assets/img/dartvader.png",
+      "name": "Funko Pop Darth Vader",
+      "category": "Muñecos",
+      "price": "10000",
+      "descripcion": "Funko Darth Vader. Tamaño 80cm alto. Pintado a mano. Artesanal"
+    },
+    {
+      "id": "c6e238c1-c986-4d0b-bcfa-1cb5e50ff8a0",
+      "img": "/assets/img/nintento wi.png",
+      "name": "Consola Retro 400 Nintendo",
+      "category": "Consola",
+      "price": "10000",
+      "descripcion": "Consola retro de bolsillo, especial para cuando tenes un break. Trae juegos por defecto y podes conseguir otros por cartuchos. Ideal para si sos amantes de los juegos"
+    },
+    {
+      "id": "57ffe26a-c813-4286-b9cf-1554a6c83869",
+      "img": "/assets/img/nintendoSwitch.png",
+      "name": "Nintendo Switch",
+      "category": "Consola",
+      "price": "200000",
+      "descripcion": "Nintendo Switch es una consola desmontable, que puede usarse en modo portátil, sobremesa o en TV; esto te brindará la posibilidad de utilizarla donde quieras y compartir sus controles. Además, los Joy-con cuentan con botones especiales para realizar print de pantalla y una cámara infrarroja que puede leer la distancia respecto a los objetos e incluso detectar formas."
+    },
+    {
+      "id": "99368fc7-9328-4cc0-9c62-6ed8d5bcf645",
+      "img": "/assets/img/play station 5.png",
+      "name": "Play Station 5",
+      "category": "Consola",
+      "price": "320000",
+      "descripcion": "PlayStation 5 experimentá una carga increíblemente rápida con un SSD de ultra alta velocidad, y descubrí una experiencia de juego más intensa e inmersiva con el innovador control PS5 que cuenta con respuesta háptica y efectos de gatillo dinámicos. El control inalámbrico DualSense también incluye un micrófono integrado y el nuevo botón crear, todo en un diseño cómodo e icónico."
+    },
+    {
+      "id": "33bdcfa0-3388-4783-a9b9-a6de5be3fb53",
+      "img": "/assets/img/xbox one.png",
+      "name": "Xbox Serie X",
+      "category": "Consola",
+      "price": "200000",
+      "descripcion": "Xbox Series que llegó al mercado para sorprender a todos. Su potencia y alto rendimiento te permitirá reducir las horas de descarga de juegos y contenido de manera considerable en comparación con otras consolas. Además, vas a poder jugar durante horas mientras te divertís con jugadores de todo el mundo."
+    },
+    {
+      "id": "2cb153ac-c73e-4571-918c-123c8160acc8",
+      "img": "/assets/img/consola.png",
+      "name": "Nintendo NES Classic Edition",
+      "category": "Consola",
+      "price": "60000",
+      "descripcion": "Con tu consola NES Classic Edition tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. Adaptada a tus necesidades Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 512 MB. Al contar con un procesador de 4 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición."
+    },
+    {
+      "id": "2733fce8-20f7-443f-a718-6f99fa6f82c7",
+      "img": "/assets/img/batman.jpg",
+      "name": "Funko Pop Batman",
+      "category": "Muñecos",
+      "price": "3500",
+      "descripcion": "-Excelente calidad de materiales y detalles de terminación -Material de los muñecos: PVC -Miden aprox entre 10 y 12 cm -Importado (origen China)"
+    },
+    {
+      "id": "2d58210b-f744-4a66-bb7d-2b571df18ba9",
+      "img": "/assets/img/sonyc.png",
+      "name": "Muñeco Sonic",
+      "category": "Muñecos",
+      "price": "2500",
+      "descripcion": "Muñeco Sonyc. Tamaño 80cm alto. Pintado a mano. Artesanal. Origen Argentina"
+    },
+    {
+      "id": "e8ef2741-721f-4f3e-a686-8b680f11b511",
+      "img": "/assets/img/babe shoda.png",
+      "name": "Funko Pop Mini Shoda",
+      "category": "Muñecos",
+      "price": "2500",
+      "descripcion": "Muñeco Bebe Shoda"
+    }
+  ],
+  "usuario": [
+    {
+      "id": 1,
+      "name": "Alura",
+      "password": "Alura123.",
+      "email": "Alura@gmail.com"
+    }
+  ]
+}

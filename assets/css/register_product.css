@@ -1,0 +1,79 @@
+body{
+    background: #E5E5E5;
+}
+#info-contacto {
+    background: #EAF2FD;
+}
+
+.input-container {
+    font-weight: var(--font-input);
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input {
+    box-sizing: border-box;
+    border: none;
+    /* padding: 1.375rem 0.5rem 0.5rem; */
+    height: 3rem;
+
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+    font-size: 50px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-label {
+    position: absolute;
+    top: 1.375rem;
+    /* left: 0.5rem; */
+    font-size: var(--font-size-input-label);
+    transition: all 0.25s;
+}
+#add-product{
+    width: 100%;
+}
+
+.input:not(:placeholder-shown)+.input-label,
+.input:focus+.input-label {
+    font-size: 1rem;
+    top: -0.8rem;
+    transition: all 0.25s;
+}
+
+.input-container--invalido {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalido .input {
+    border: 1px solid var(--info-color);
+    border-radius: 7px;
+}
+
+.input-container--invalido .input-label {
+    color: var(--info-color);
+}
+
+.input-menssage-error {
+    display: none;
+}
+
+.input-container--invalido .input-menssage-error {
+    color: var(--info-color);
+    display: block;
+    margin-top: 0.5rem;
+}
+#contactoinput{
+    border: grey solid solid;
+    width: 100%;
+}
