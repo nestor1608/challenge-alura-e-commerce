@@ -31,7 +31,7 @@ const login = async ( emailcli, passwordcli) =>{
     const list = await usuarios();
     list.forEach((lis) => {
         if(lis.email == emailcli && lis.password == passwordcli){
-            window.location.href="../../views/list_producto.html"
+            window.location.href="./list_producto.html"
         }else{
             alert("Usuario o Contraseña Incorrecto")
         }

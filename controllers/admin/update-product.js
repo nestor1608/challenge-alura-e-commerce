@@ -25,7 +25,7 @@ const infoEditProduct = async ()=>{
         }
     }catch(err){
         alert("Ocurrio un error al obtener el producto");
-        window.location.href ="../../views/list_producto.html"
+        window.location.href ="./list_producto.html"
     }
 };
 infoEditProduct();
