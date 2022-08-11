@@ -40,7 +40,7 @@ const search = async ()=>{
             titulo.innerHTML=`Se encontraron estos resultado para '${cate}'`;
             bande=true
         }else{
-            if(bande = false){
+            if(bande == false){
                 titulo.innerHTML=`No se encontraron resultados para '${cate}'`;
             }
         }
