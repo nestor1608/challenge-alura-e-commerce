@@ -10,7 +10,7 @@ const productDetail = (img, name, descripcion, price) =>{
                                 <div class="card">
                                     <div class="row">
                                         <div class="col-7">
-                                            <img class="img-fluid" src="${img}" id="img-product">
+                                            <img class="img-fluid" src="./${img}" id="img-product">
                                         </div>
                                         <div class="col-4 text-center" id="description-card">
                                             <h2>${name}</h2>
