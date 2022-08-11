@@ -64,12 +64,12 @@
       "descripcion": "Consola NES Classic Edition.  Adaptada a tus necesidades Guardá tus apps, fotos, videos y mucho más en el disco duro. Al contar con un procesador de 4 núcleos y uno gráfico, brinda una experiencia dinámica."
     },
     {
-      "id": "2733fce8-20f7-443f-a718-6f99fa6f82c7",
       "img": "../assets/img/batman.jpg",
       "name": "Funko Pop Batman",
       "category": "Muñecos",
       "price": "3500",
-      "descripcion": "-Excelente calidad de materiales y detalles de terminación -Material de los muñecos: PVC -Miden aprox entre 10 y 12 cm -Importado (origen China)"
+      "descripcion": "-Excelente calidad de materiales y detalles de terminación -Material de los muñecos: PVC -Miden aprox entre 10 y 12 cm -Importado (origen China)",
+      "id": "2733fce8-20f7-443f-a718-6f99fa6f82c7"
     },
     {
       "id": "2d58210b-f744-4a66-bb7d-2b571df18ba9",

@@ -42,7 +42,7 @@ form.addEventListener("submit", (event)=>{
         const price = document.querySelector("[data-price]").value;
         const description = document.querySelector("[data-descripcion]").value;
         AdminService.updateProduct(img, product,category, price, description ,id).then(()=>{
-            window.location.href = "../../views/list_producto.html";
+            window.location.href = "./list_producto.html";
         }).catch((err)=> {
             alert("Ocurrio un Error",err);
         })
